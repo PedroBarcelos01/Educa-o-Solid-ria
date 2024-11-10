@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #283E50;
+    padding: 20px 40px;
+    border-radius: 0 0 10px 10px;
+    color: #fff;
+}
+.logo img {
+    height: 150px;
+}
+.nav ul {
+    display: flex;
+    list-style: none;
+}
+.nav ul li {
+    margin: 0 15px;
+}
+.nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 15px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+}
+.nav ul li a:hover {
+    background-color: #fff;
+    color: #2E4A5A;
+}
+.wrapper{
+    padding: 40px;
+    background-color: #fff;
+}
+.wrapper.active{
+    height: 530px;
+}
+.wrapper .form{
+    margin: 20px 0 25px;
+}
+.wrapper h2 {
+    background-color: #2E4A5A;
+    color: #fff;
+    display: inline-block;
+    padding: 8px 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form input{
+    width: 100%;
+    max-width: 600px;
+    padding: 15px;
+    border: none;
+    background-color: #E0E0E0;
+    font-size: 16px;
+    color: #333;
+    border-radius: 5px;
+    margin: 0 auto 20px auto;
+    display: block;
+}
+
+.botao{
+    padding: 10px 30px;
+    background-color: #2E4A5A;
+    color:#fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s; 
+}
+.wrapper .qr-code{
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    padding: 33px 0;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #2E4A5A;
+}
+.wrapper .img{
+    width: 200px;
+    height: auto;
+}
+.wrapper.active .qr-code{
+    opacity: 1;
+    pointer-events: auto;
+    transition: apacity 0.5s ease;
+}

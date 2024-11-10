@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #283e50;
+    padding: 20px 40px;
+    border-radius: 0 0 10px 10px;
+    color: #fff;
+}
+
+.logo img {
+    height: 150px;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav ul li {
+    margin: 0 15px;
+}
+
+.nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 15px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+}
+
+.nav ul li a:hover {
+    background-color: #fff;
+    color: #2E4A5A;
+}
+
+main {
+    padding: 40px;
+    background-color: #fff;
+}
+
+.about h2 {
+    background-color: #2E4A5A;
+    color: #fff;
+    display: inline-block;
+    padding: 8px 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.about p {
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.goals h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.goals ul {
+    list-style: disc;
+    padding-left: 20px;
+    color: #333;
+}
+
+.goals ul li {
+    margin-bottom: 10px;
+}
+
+.image-section {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.image-section img {
+    max-width: 300px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.development h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.development ul {
+    list-style: none;
+    padding-left: 0;
+    color: #333;
+}
+
+.development ul li {
+    margin-bottom: 5px;
+}
