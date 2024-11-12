@@ -19,7 +19,7 @@ qrImg = wrapper.querySelector(".qr-code img");
 generateBtn.addEventListener("click", () => {
     let qrValue = qrInput.value;
     if(!qrValue) return;
-    const customMessage = "Pagamento efetuado no valor de: ";
+    const customMessage = "Pagamento efetuado no valor de ";
     const qrData = customMessage + qrValue;
     generateBtn.innerText = "Gerando um Qr Code..."
     qrImg.src = `https://api.qrserver.com/v1/create-qr-code/?size=170x170&data=${encodeURIComponent(qrData)}`;
