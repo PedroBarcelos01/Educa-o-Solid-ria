@@ -19,8 +19,8 @@ body {
     color: #fff;
 }
 
-.logo img {
-    height: 150px;
+.logo{
+    height: 200px;
 }
 
 .nav ul {
@@ -92,7 +92,7 @@ main {
 }
 
 .image-section img {
-    max-width: 300px;
+    max-width: 400px;
     margin-right: 20px;
     border-radius: 10px;
 }

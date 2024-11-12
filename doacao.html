@@ -5,18 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Educação Solidária - Contato</title>
     <link rel="stylesheet" href="doacao.css">
-    <link rel="shortcut icon" href="logo/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
 </head>
 <body>
     <header class="header">
-        <div class="logo">
-            <img src="logo/logo.png" alt="Educação Solidária Logo">
+        <div>
+            <img src="img/logo.png" alt="Educação Solidária Logo" class="logo">
         </div>
         <nav class="nav">
             <ul>
                 <li><a href="inicio.html">Início</a></li>
                 <li><a href="sobre.html">Sobre</a></li>
-                <li><a href="contato.html">Doação</a></li>
+                <li><a href="contato.html">Contato</a></li>
             </ul>
         </nav>
     </header>
@@ -24,13 +24,13 @@
     <main>
         <section class="wrapper">
             <h2>DOAÇÃO</h2>
-            <p>Contribua com a nossa causa: sua doação em dinheiro será utilizada para adquirir material escolar
+            <p class="texto">Contribua com a nossa causa: sua doação em dinheiro será utilizada para adquirir material escolar
                 essencial,
                 garantindo que crianças em necessidade tenham acesso ao aprendizado. Junte-se a nós na construção de um
                 futuro melhor!</p>
 
             <div class="form">
-                <input type="text" placeholder="VALOR">
+                <input type="text" placeholder="VALOR" onkeyup="mascara(this)">
                 <button class="botao">Gerar Qr Code</button>
             </div>
             <div class="qr-code">

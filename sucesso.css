@@ -27,9 +27,8 @@
     border-bottom-left-radius: 8px;
 }
 
-.logo {
-    width: 300px;
-    margin-bottom: 1rem;
+.logo{
+    height: 300px;
 }
 
 .msg-section {
