@@ -46,6 +46,7 @@ body {
     background-color: #fff;
     color: #2E4A5A;
 }
+
 .texto {
     color: #333;
     font-size: 16px;
@@ -96,7 +97,7 @@ body {
     display: block;
 }
 
-.botao{
+.botao {
     padding: 10px 30px;
     background-color: #2E4A5A;
     color:#fff;

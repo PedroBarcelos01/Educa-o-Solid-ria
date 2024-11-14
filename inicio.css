@@ -9,7 +9,6 @@ body {
     background-color: #f8f8f8;
 }
 
-/* Cabeçalho */
 .header {
     display: flex;
     align-items: center;
@@ -48,7 +47,6 @@ body {
     color: #2E4A5A;
 }
 
-/* Seção de Comentários */
 .comments-section {
     width: 100%;
     margin: 20px 0;
@@ -66,7 +64,6 @@ body {
     margin-left: 20px;
 }
 
-/* Estilização do carrossel de comentários */
 .comments-carousel {
     display: flex;
     align-items: center;
@@ -83,10 +80,9 @@ body {
     cursor: pointer;
 }
 
-/* Estilos para o comentário */
 .comment {
-    width: 200px; /* Largura fixa para o balão de comentário */
-    height: 230px; /* Altura fixa */
+    width: 200px;
+    height: 230px;
     padding: 10px;
     background-color: #E8E8E8;
     border-radius: 10px;
@@ -99,7 +95,6 @@ body {
     margin: 0 10px;
 }
 
-/* Cabeçalho do comentário */
 .comment-header {
     width: 200px;
     height: 50px;
@@ -113,7 +108,6 @@ body {
     border-radius: 0px;
 }
 
-/* Texto do comentário */
 .comment p {
     font-size: 15px;
     color: #333;
@@ -121,8 +115,6 @@ body {
     overflow: hidden;
     text-overflow: ellipsis;
 }
-
-/* Seção de Galeria */
 
 .gallery-section h2 {
     font-size: 24px;
